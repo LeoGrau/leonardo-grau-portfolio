@@ -1,0 +1,24 @@
+footer {
+  height: 12.5vh;
+  width: 100%;
+}
+
+footer .social-contacts i {
+  color: var(--slate);
+  font-size: 1.7rem;
+  transition: color, transform 0.1s ease-in;
+} 
+
+footer .social-contacts i:hover {
+  transform: translateY(-5px);
+  color: var(--turquoise);
+} 
+
+footer .social-contacts::after {
+  content: "";
+  height: 90px;
+  width: 1px;
+  margin-top: 10px;
+  background-color: var(--slate);
+} 
+

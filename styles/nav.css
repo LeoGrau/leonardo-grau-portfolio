@@ -1,0 +1,29 @@
+nav {
+  position: fixed;
+  background-color: var(--dark-cyan-blue);
+  height: 70px;
+  width: 100%;
+  color: var(--turquoise);
+  z-index: 6;
+}
+
+nav h2 {
+  font-family: "Righteous";
+  color: white;
+}
+
+nav ul li a {
+  color: var(--turquoise-800);
+  font-family: "Ubuntu Mono";
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.1s ease-in;
+}
+
+nav ul li:hover a {
+  color: var(--turquoise);
+}
+
+nav ul li:hover a {
+  color: var(--turquoise);
+}

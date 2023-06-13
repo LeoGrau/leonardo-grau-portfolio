@@ -1,0 +1,25 @@
+main #intro {
+  padding-top: 70px;
+  background-color: var(--dark-cyan-blue);
+  height: 100vh;
+}
+
+
+main #about-me {
+  background-color: var(--dark-cyan-blue);
+  height: 100vh;
+
+}
+
+main #professional-info {
+  background-color: var(--dark-cyan-blue);
+  height: 100vh;
+
+}
+
+main #skills {
+  background-color: var(--dark-cyan-blue);
+  height: 100vh;
+}
+
+
