@@ -382,7 +382,7 @@ img[alt="just-me"] {
 }
 
 .mask {
-  background-color: var(--turquoise-500);
+  background-color: #64ffdb59;
   transition: all 0.3s ease;
 }
 
