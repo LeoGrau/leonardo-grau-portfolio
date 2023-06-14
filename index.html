@@ -74,8 +74,10 @@
               technologies, I'm always up for the challenge. Let's team up and bring our ideas to life!
             </p>
           </div>
-          <div class="bordered-square-container">
-            <img src="./assets/images/LeonardorGrau.jpg" alt="just-me" />
+          <div class="bordered-square-container position-relative unmask-container">
+            <img class="position-absolute" src="./assets/images/LeonardorGrau.jpg" alt="just-me" />
+            <div class="mask position-absolute object-fit-cover border-radius bordered-square-container"
+            style="max-width: 780px;"></div>
           </div>
         </div>
       </div>
@@ -192,8 +194,8 @@
         </div>
       </div>
     </section>
-    <section id="my-projects">
-      <div class="p-5">
+    <section id="my-projects" class="d-flex justify-content-center align-items-center">
+      <div class="p-5 w-100">
         <div class="d-flex flex-column justify-content-center align-items-center">
           <h3 class="text-light-slate electrolize-font text-xl mb-5">
             <span class="text-turquoise nova-mono-font text-lg">04.</span>
@@ -224,8 +226,8 @@
               </div>
               <div class="overflow-hidden position-absolute project-image-container border-radius"
                 style="width: 100%; height: 100%; max-width: 720px; right: 0; max-height: 460px;">
-                <div class="position-relative" style="height: 100%;">
-                  <img class="position-absolute border-radius" style="height: 100%;"
+                <div class="position-relative unmask-container" style="height: 100%;">
+                  <img class="position-absolute border-radius to-unmask" style="height: 100%;"
                     src="./assets/images/receipt-app-shot.PNG" alt="">
                   <div class="mask position-absolute object-fit-cover border-radius"
                     style="width: 100%; height: 100%; max-width: 780px;"></div>
@@ -247,8 +249,8 @@
       style="right: 20px; bottom: 0;">
       <span class="ubuntu-mono-font d-inline-block">leonardo.grau@outlook.com.pe</span>
     </div>
-    <div class="w-100 h-100 d-flex justify-content-center align-items-end text-slate rajdhani-font">
-      <p class="mb-3">Made by Leonardo Grau 2023</p>
+    <div class="w-100 h-100 d-flex justify-content-center align-items-end rajdhani-font">
+      <p class="mb-3 text-slate-500" >Made by Leonardo Grau 2023</p>
     </div>
   </footer>
 </body>

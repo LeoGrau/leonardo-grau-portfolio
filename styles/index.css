@@ -225,6 +225,10 @@ a.text-slate:hover {
   color: var(--light-slate);
 }
 
+.text-slate-500 {
+  color: var(--slate-500);
+}
+
 /* Turquoise */
 .text-turquoise {
   color: var(--turquoise);
@@ -391,16 +395,21 @@ img[alt="just-me"] {
   cursor: pointer;
 }
 
-.project-image-container img {
+
+.unmask-container {
+  cursor: pointer;
+}
+
+.unmask-container img {
   filter: grayscale(100);
   transition: all 0.3s ease;
 }
 
-.project-image-container:hover img {
+.unmask-container:hover img {
   filter: grayscale(0);
 }
 
-.project-image-container:hover .mask {
+.mask:hover {
   background-color: transparent;
 }
 
