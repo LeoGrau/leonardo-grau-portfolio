@@ -1,9 +1,11 @@
 footer {
   height: 12.5vh;
   width: 100%;
+  background-color: var(--dark-cyan-blue);
 }
 
 footer .social-contacts i {
+  cursor: pointer;
   color: var(--slate);
   font-size: 1.7rem;
   transition: color, transform 0.1s ease-in;
@@ -15,6 +17,20 @@ footer .social-contacts i:hover {
 } 
 
 footer .social-contacts::after {
+  content: "";
+  height: 90px;
+  width: 1px;
+  margin-top: 10px;
+  background-color: var(--slate);
+} 
+
+footer .email span {
+  transform-origin: center;
+  writing-mode: vertical-rl;
+}
+
+footer .email::after {
+  display: inline-block;
   content: "";
   height: 90px;
   width: 1px;

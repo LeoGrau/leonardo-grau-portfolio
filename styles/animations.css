@@ -1,0 +1,15 @@
+
+.target-animation {
+  cursor: pointer;
+}
+
+.arrow-left, .arrow-right {
+  transition: transform 0.1s ease-in;
+}
+.target-animation:hover .arrow-left {
+  transform: translateX(-10px);
+}
+
+.target-animation:hover .arrow-right {
+  transform: translateX(10px);
+}

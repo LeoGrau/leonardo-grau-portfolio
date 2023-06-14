@@ -1,20 +1,18 @@
+main #intro,
+main #about-me,
+main #skills {
+  min-height: 1000px;
+}
+
 main #intro {
   padding-top: 70px;
   background-color: var(--dark-cyan-blue);
   height: 100vh;
 }
 
-
 main #about-me {
   background-color: var(--dark-cyan-blue);
   height: 100vh;
-
-}
-
-main #professional-info {
-  background-color: var(--dark-cyan-blue);
-  height: 100vh;
-
 }
 
 main #skills {
@@ -22,4 +20,13 @@ main #skills {
   height: 100vh;
 }
 
+main #my-projects {
+  background-color: var(--dark-cyan-blue);
+  height: 100vh;
+}
 
+.turquoise-border {
+  border: #64ffdba8 1px solid;
+  padding: 20px;
+  border-radius: 5px;
+}

@@ -1,11 +1,13 @@
 @import url("./nav.css");
 @import url("./main.css");
 @import url("./footer.css");
+@import url("./animations.css");
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Heebo:wght@400;500;600;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&family=Rajdhani:wght@400;500&family=Righteous&family=Ubuntu+Mono&display=swap');
 
 
 :root {
   --dark-cyan-blue: #0a192f;
+  --lighter-dark-cyan-blue: #11294d;
   --turquoise: #64ffda;
   /* --turquoise: #2e6c5e; */
   --turquoise-500: #40e0d080;
@@ -207,8 +209,16 @@ a {
 
 
 /* Slate */
-.text-color-slate {
+.text-slate {
   color: var(--slate);
+}
+
+a.text-slate {
+  transition: color 0.3s ease;
+}
+
+a.text-slate:hover {
+  color: var(--turquoise);
 }
 
 .text-light-slate {
@@ -332,3 +342,66 @@ img[alt="just-me"] {
   width: 100px;
   cursor: pointer;
 }
+
+.text-skill::before {
+  content: "▸";
+  color: var(--turquoise);
+}
+
+.text-skill {
+  cursor: pointer;
+  transition: color 0.1s ease-in;
+}
+
+.text-skill:hover {
+  color: var(--light-slate)
+}
+
+/* Button */
+.tech-button {
+  padding: 10px 30px;
+  border-radius: 8px;
+  background-color: var(--dark-cyan-blue);
+  color: var(--turquoise);
+  border: 1px solid var(--turquoise);
+  transition: all 0.2s ease-in;
+}
+
+
+.tech-button:hover {
+  box-shadow: 4px 4px 0 0 var(--turquoise);
+  transform: translate(-5px, -5px);
+}
+
+.bg-lighter-dark-cyan-blue {
+  background-color: var(--lighter-dark-cyan-blue);
+}
+
+.border-radius {
+  border-radius: 4px;
+}
+
+.mask {
+  background-color: var(--turquoise-500);
+  transition: all 0.3s ease;
+}
+
+
+.project-image-container {
+  cursor: pointer;
+}
+
+.project-image-container img {
+  filter: grayscale(100);
+  transition: all 0.3s ease;
+}
+
+.project-image-container:hover img {
+  filter: grayscale(0);
+}
+
+.project-image-container:hover .mask {
+  background-color: transparent;
+}
+
+/* 4px 4px 0 0 */
