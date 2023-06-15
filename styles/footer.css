@@ -7,7 +7,7 @@ footer {
 footer .social-contacts i {
   cursor: pointer;
   color: var(--slate);
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   transition: color, transform 0.1s ease-in;
 } 
 
@@ -37,4 +37,9 @@ footer .email::after {
   margin-top: 10px;
   background-color: var(--slate);
 } 
-  
+
+@media (max-width: 768px) {
+  footer .social-contacts {
+    visibility: hidden;
+  }
+}

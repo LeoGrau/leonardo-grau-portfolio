@@ -1,8 +1,5 @@
-main #intro,
-main #about-me,
-main #skills {
-  min-height: 1000px;
-}
+
+main #intro
 
 main #intro {
   padding-top: 70px;
@@ -10,19 +7,35 @@ main #intro {
   height: 100vh;
 }
 
+/* About me */
 main #about-me {
+  padding-top: 70px;
   background-color: var(--dark-cyan-blue);
-  height: 100vh;
+  /* height: 100vh; */
 }
 
+main #about-me .w-75-md,
+main #about-me .w-50-lg
+{
+  max-width: 510px;
+}
+
+main #about-me .turquoise-border {
+  max-width: 297px;
+}
+
+
 main #skills {
+  padding-top: 70px;
   background-color: var(--dark-cyan-blue);
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 main #my-projects {
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: var(--dark-cyan-blue);
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .turquoise-border {

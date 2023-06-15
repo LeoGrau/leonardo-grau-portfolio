@@ -26,7 +26,7 @@
       <li><a href="">Contact me</a></li>
     </ul>
   </nav>
-  <main class="d-flex flex-column">
+  <main class="d-flex flex-column w-100">
     <section id="intro" class="d-flex gap-5 justify-content-center align-items-center">
       <div class="d-flex justify-content-center align-items-center gap-4">
         <div class="" style="width: 50%">
@@ -52,85 +52,82 @@
         </div>
       </div>
     </section>
-    <section id="about-me" class="d-flex flex-column justify-content-center align-items-center">
-      <div class="p-5">
-        <div class="d-flex justify-content-center" style="gap: 100px">
-          <div class="w-25">
-            <h1 class="text-light-slate electrolize-font text-xl">
-              <span class="text-turquoise nova-mono-font text-lg">01.</span>
-              About Me
-            </h1>
-            <p class="text-slate">
-              Hey there! I'm a passionate web developer and mobile application enthusiast, currently in my 4th year of
-              studies at UPC (Universidad Peruana de Ciencias Aplicadas). When I'm not immersed in coding, you can find
-              me hitting the gym to stay fit and energized, or unleashing my creativity on the dance floor.
+    <section id="about-me" class="d-flex flex-column justify-content-center align-items-center gap-4">
+      <div class="d-flex flex-column flex-sm-column flex-md-row justify-content-center align-items-center gap-5">
+        <div class="w-50-lg w-75-sm">
+          <h1 class="text-light-slate electrolize-font text-xl">
+            <span class="text-turquoise nova-mono-font text-lg">01.</span>
+            About Me
+          </h1>
+          <p class="text-slate">
+            Hey there! I'm a passionate web developer and mobile application enthusiast, currently in my 4th year of
+            studies at UPC (Universidad Peruana de Ciencias Aplicadas). When I'm not immersed in coding, you can find
+            me hitting the gym to stay fit and energized, or unleashing my creativity on the dance floor.
 
-              People often describe me as talkative, kind, and attentive, as I genuinely enjoy connecting with others
-              and listening to their stories. I thrive in collaborative environments and strongly believe in the power
-              of teamwork.
+            People often describe me as talkative, kind, and attentive, as I genuinely enjoy connecting with others
+            and listening to their stories. I thrive in collaborative environments and strongly believe in the power
+            of teamwork.
 
-              As a lifelong learner, I have an insatiable curiosity and make it a point to acquire new skills and
-              knowledge every day. Whether it's exploring the latest web development frameworks or mastering emerging
-              technologies, I'm always up for the challenge. Let's team up and bring our ideas to life!
-            </p>
-          </div>
-          <div class="bordered-square-container position-relative unmask-container">
-            <img class="position-absolute" src="./assets/images/LeonardorGrau.jpg" alt="just-me" />
-            <div class="mask position-absolute object-fit-cover border-radius bordered-square-container"
-            style="max-width: 780px;"></div>
-          </div>
+            As a lifelong learner, I have an insatiable curiosity and make it a point to acquire new skills and
+            knowledge every day. Whether it's exploring the latest web development frameworks or mastering emerging
+            technologies, I'm always up for the challenge. Let's team up and bring our ideas to life!
+          </p>
+        </div>
+        <div class="bordered-square-container position-relative unmask-container">
+          <img style="width: 297px; height: 340px;" class="position-absolute object-fit-cover"
+            src="./assets/images/LeonardorGrau.jpg" alt="just-me" />
+          <div class="mask position-absolute object-fit-cover border-radius"></div>
         </div>
       </div>
-      <div class="p-5">
-        <div class="d-flex flex-row-reverse justify-content-center align-items-center" style="gap: 100px">
-          <div class="w-25">
-            <h1 class="text-light-slate electrolize-font text-xl">
-              <span class="text-turquoise nova-mono-font text-lg">02.</span>
-              Professional Info
-            </h1>
-            <p class="text-slate">
-              In all my student path, I've been developing apps with different
-              frameworks and technologies for university projects in each
-              semester. I have domain in <span class="text-turquoise fw-medium">Spring Boot</span> and
-              <span class="text-turquoise fw-medium">.NET</span> in server side
-              applications. In the other hand, for client side applications, I
-              utilize <span class="text-turquoise fw-medium">Vue</span>, but I can adapt to other web frameworks or
-              libraries. Nowadays, I'm learning mobile development with
-              Flutter. In addition, I have domain in data structures,
-              algorithms and its complexity.
-            </p>
-          </div>
-          <div style="width: 370px; height: 300px;" class="turquoise-border">
-            <section>
-              <p class="text-slate text-sm electrolize-font text-turquoise-800"> Programming Languages </p>
-              <ul class="d-grid" style="grid-template-columns: repeat(2, 1fr);">
-                <li class="text-skill text-slate electrolize-font"> Javascript </li>
-                <li class="text-skill text-slate electrolize-font"> Typescript </li>
-                <li class="text-skill text-slate electrolize-font"> C# </li>
-                <li class="text-skill text-slate electrolize-font"> Java </li>
-                <li class="text-skill text-slate electrolize-font"> C++ </li>
-                <li class="text-skill text-slate electrolize-font"> Python </li>
-              </ul>
-              <p class="text-slate text-sm electrolize-font text-turquoise-800"> Frameworks </p>
-              <ul class="d-grid" style="grid-template-columns: repeat(2, 1fr);">
-                <li class="text-skill text-slate electrolize-font"> Spring Boot </li>
-                <li class="text-skill text-slate electrolize-font"> .NET </li>
-                <li class="text-skill text-slate electrolize-font"> Vue </li>
-                <li class="text-skill text-slate electrolize-font"> React </li>
-              </ul>
-            </section>
-          </div>
+      <div
+        class="d-flex flex-column flex-sm-column flex-md-row-reverse justify-content-center align-items-center gap-5 ">
+        <div class="w-50-lg w-75-sm">
+          <h1 class="text-light-slate electrolize-font text-xl">
+            <span class="text-turquoise nova-mono-font text-lg">02.</span>
+            Professional Info
+          </h1>
+          <p class="text-slate">
+            In all my student path, I've been developing apps with different
+            frameworks and technologies for university projects in each
+            semester. I have domain in <span class="text-turquoise fw-medium">Spring Boot</span> and
+            <span class="text-turquoise fw-medium">.NET</span> in server side
+            applications. In the other hand, for client side applications, I
+            utilize <span class="text-turquoise fw-medium">Vue</span>, but I can adapt to other web frameworks or
+            libraries. Nowadays, I'm learning mobile development with
+            Flutter. In addition, I have domain in data structures,
+            algorithms and its complexity.
+          </p>
+        </div>
+        <div style="width: 370px; height: 300px;" class="turquoise-border">
+          <section>
+            <p class="text-slate text-sm electrolize-font text-turquoise-800"> Programming Languages </p>
+            <ul class="d-grid" style="grid-template-columns: repeat(2, 1fr);">
+              <li class="text-skill text-slate electrolize-font"> Javascript </li>
+              <li class="text-skill text-slate electrolize-font"> Typescript </li>
+              <li class="text-skill text-slate electrolize-font"> C# </li>
+              <li class="text-skill text-slate electrolize-font"> Java </li>
+              <li class="text-skill text-slate electrolize-font"> C++ </li>
+              <li class="text-skill text-slate electrolize-font"> Python </li>
+            </ul>
+            <p class="text-slate text-sm electrolize-font text-turquoise-800"> Frameworks </p>
+            <ul class="d-grid" style="grid-template-columns: repeat(2, 1fr);">
+              <li class="text-skill text-slate electrolize-font"> Spring Boot </li>
+              <li class="text-skill text-slate electrolize-font"> .NET </li>
+              <li class="text-skill text-slate electrolize-font"> Vue </li>
+              <li class="text-skill text-slate electrolize-font"> React </li>
+            </ul>
+          </section>
         </div>
       </div>
     </section>
     <section id="skills" class="d-flex flex-column justify-content-center align-items-center">
-      <div class="p-5">
+      <div class="">
         <div class="d-flex flex-column justify-content-center align-items-center">
           <h3 class="text-light-slate electrolize-font text-xl mb-5">
             <span class="text-turquoise nova-mono-font text-lg">03.</span>
             Skills and My Tools
           </h3>
-          <div class="d-flex gap-5">
+          <div class="d-flex gap-5 flex-sm-column flex-md-row flex-lg-row">
             <div class="tech-skill d-flex flex-column gap-5">
               <article class="d-flex flex-column align-items-center">
                 <h3 class="text-light-slate electrolize-font text-md mb-5 target-animation">
@@ -195,47 +192,45 @@
       </div>
     </section>
     <section id="my-projects" class="d-flex justify-content-center align-items-center">
-      <div class="p-5 w-100">
+      <div class="w-100">
         <div class="d-flex flex-column justify-content-center align-items-center">
           <h3 class="text-light-slate electrolize-font text-xl mb-5">
             <span class="text-turquoise nova-mono-font text-lg">04.</span>
             My Projects
           </h3>
-          <section class="w-75" style="height: 60vh;">
-            <article class="w-auto gap-3 position-relative" style="height: 100%">
-              <div class="position-absolute z-3 w-50 d-flex align-items-center" style="height: 100%;">
-                <div class="d-flex flex-column">
-                  <h5 class="ubuntu-mono-font text-turquoise-800">Basic Project</h5>
-                  <h2 class="text-slate heebo-font mb-4"> Receipt App </h2>
-                  <p class="text-slate w-100 fw-medium bg-lighter-dark-cyan-blue p-3 border-radius text-md">
-                    A minimalistic and fun application built with React and PrimeReact, using JavaScript. Integrated
-                    with Axios for seamless communication with a .NET API, perfect for showcasing in job interviews.
-                  </p>
-                  <ul class="p-0 d-flex gap-3">
-                    <li class="text-slate ubuntu-mono-font fw-medium text-md"> React </li>
-                    <li class="text-slate ubuntu-mono-font fw-medium text-md"> VSCode </li>
-                    <li class="text-slate ubuntu-mono-font fw-medium text-md"> .NET </li>
-                    <li class="text-slate ubuntu-mono-font fw-medium text-md"> PrimeReact </li>
-                    <li class="text-slate ubuntu-mono-font fw-medium text-md"> Axios </li>
-                  </ul>
-                  <div class="d-flex gap-2">
-                    <a href="" class="bi bi-github text-slate text-xl"></a>
-                    <a href="" class="bi bi-link-45deg text-slate text-xl"></a>
-                  </div>
+          <div class="d-flex justify-content-center w-100">
+            <div class="project-card">
+              <div class="image-container">
+                <img src="./assets/images/receipt-app-shot.PNG" alt="">
+                <div class="blue-mask"></div>
+                <div class="turquoise-mask"></div>
+              </div>
+              <div class="info">
+                <h5 class="jetbrains-mono-font text-turquoise" style="font-size: 14px;">Basic Project</h5>
+                <h2 class="roboto-font fw-bolder"> Receipt App </h2>
+                <p class="roboto-font">
+                  A minimalistic and fun application built with <span class="text-turquoise">React</span> and
+                  <span class="text-turquoise"> PrimeReact </span>, using <span
+                    class="text-turquoise">JavaScript</span>. Integrated
+                  with <span class="text-turquoise">Axios</span> for seamless communication with a <span
+                    class="text-turquoise">.NET API</span>, perfect for showcasing in job interviews.
+                </p>
+                <ul class="d-flex gap-2 p-0 py-2">
+                  <li class="roboto-mono-font text-white-slate text-xs"> React </li>
+                  <li class="roboto-mono-font text-white-slate text-xs"> VSCode </li>
+                  <li class="roboto-mono-font text-white-slate text-xs"> .NET </li>
+                  <li class="roboto-mono-font text-white-slate text-xs"> PrimeReact </li>
+                  <li class="roboto-mono-font text-white-slate text-xs"> Axios </li>
+                </ul>
+                <div class="d-flex gap-2">
+                  <a href="" class="bi bi-github text-slate text-xl"></a>
+                  <a href="" class="bi bi-link-45deg text-slate text-xl"></a>
                 </div>
               </div>
-              <div class="overflow-hidden position-absolute project-image-container border-radius"
-                style="width: 100%; height: 100%; max-width: 720px; right: 0; max-height: 460px;">
-                <div class="position-relative unmask-container" style="height: 100%;">
-                  <img class="position-absolute border-radius to-unmask" style="height: 100%;"
-                    src="./assets/images/receipt-app-shot.PNG" alt="">
-                  <div class="mask position-absolute object-fit-cover border-radius"
-                    style="width: 100%; height: 100%; max-width: 780px;"></div>
-                </div>
-              </div>
-            </article>
-          </section>
-        </div>
+            </div>
+          </div>
+    </section>
+    </div>
     </section>
   </main>
   <footer>
@@ -250,7 +245,7 @@
       <span class="ubuntu-mono-font d-inline-block">leonardo.grau@outlook.com.pe</span>
     </div>
     <div class="w-100 h-100 d-flex justify-content-center align-items-end rajdhani-font">
-      <p class="mb-3 text-slate-500" >Made by Leonardo Grau 2023</p>
+      <p class="mb-3 text-slate-500">Made by Leonardo Grau 2023</p>
     </div>
   </footer>
 </body>
