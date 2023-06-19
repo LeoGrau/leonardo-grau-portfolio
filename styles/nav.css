@@ -1,10 +1,17 @@
 nav {
-  position: fixed;
+  position: fixed !important;
   background-color: var(--dark-cyan-blue);
-  height: 70px;
+  height: 70px !important;
   width: 100%;
   color: var(--turquoise);
   z-index: 6;
+}
+
+@media (max-width: 768px) { 
+  nav .navbar-collapse {
+    position: absolute;
+    top: 60px;
+  }   
 }
 
 nav h2 {
@@ -13,7 +20,7 @@ nav h2 {
 }
 
 nav ul li a {
-  color: var(--turquoise-800);
+  color: var(--slate);
   font-family: "Ubuntu Mono";
   font-weight: 500;
   font-size: 14px;
@@ -21,9 +28,46 @@ nav ul li a {
 }
 
 nav ul li:hover a {
-  color: var(--turquoise);
+  color: var(--turquoise) !important;
 }
 
 nav ul li:hover a {
+  color: var(--turquoise) !important;
+}
+
+nav .navbar-toggler {
+  border: none;
+}
+
+nav .navbar-toggler span{
+  font-size: 26px;
   color: var(--turquoise);
+}
+
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+a[href="#skills"]::before,
+a[href="#about-me"]::before,
+a[href="#my-projects"]::before {
+  color: var(--turquoise);
+  padding-right: 8px;
+}
+
+ul a[href="#"]::before {
+  content: "01.";
+  color: var(--turquoise);
+}
+
+ul a[href="#about-me"]::before {
+  content: "02.";
+}
+
+ul a[href="#skills"]::before {
+  content: "03.";
+}
+
+ul a[href="#my-projects"]::before {
+  content: "04.";
 }

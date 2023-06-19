@@ -4,6 +4,28 @@ main #intro {
   height: 100vh;
 }
 
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  main #intro .floating-element {
+    display: none;
+  }
+  
+  main #intro > div:nth-child(1) {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  main #intro .floating-element {
+    display: none;
+  }
+  
+  main #intro > div:nth-child(1) {
+    width: 100%;
+  }
+}
+
+
 /* About me */
 main #about-me {
   padding-top: 70px;
@@ -41,3 +63,4 @@ main #my-projects {
   padding: 20px;
   border-radius: 5px;
 }
+

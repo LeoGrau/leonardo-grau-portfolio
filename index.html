@@ -16,20 +16,36 @@
 </head>
 
 <body>
-  <nav class="d-flex justify-content-between align-items-center px-3">
-    <h2 class="m-0">LGV</h2>
-    <ul class="d-flex flex-row gap-3 m-0">
-      <li><a href="#intro">Home</a></li>
-      <li><a href="#about-me">About me</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#my-projects">Projects</a></li>
-      <li><a href="">Contact me</a></li>
-    </ul>
+  <nav class="navbar navbar-expand-md" style="background-color: var(--dark-cyan-blue);">
+    <div class="container-fluid">
+      <a href="#">
+        <h2 class="m-0">LGV</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="bi bi-list"></span>
+      </button>
+      <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item py-2 px-md-1 py-md-0">
+            <a class="" aria-current="page" href="#"> Home</a>
+          </li>
+          <li class="nav-item py-2 px-md-3 py-md-0">
+            <a class="" aria-current="page" href="#about-me">About me</a>
+          </li>
+          <li class="nav-item py-2 px-md-1 py-md-0">
+            <a class="" aria-current="page" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item py-2 px-md-3 py-md-0">
+            <a class="" aria-current="page" href="#my-projects">Projects</a>
+          </li>
+      </div>
+    </div>
   </nav>
   <main class="d-flex flex-column w-100">
     <section id="intro" class="d-flex gap-5 justify-content-center align-items-center">
       <div class="d-flex justify-content-center align-items-center gap-4">
-        <div class="" style="width: 50%">
+        <div class="w-100-md w-50-xl">
           <h3 class="text-turquoise ubuntu-mono-font text-md">
             Hi! My name is
           </h3>
@@ -121,74 +137,67 @@
       </div>
     </section>
     <section id="skills" class="d-flex flex-column justify-content-center align-items-center">
-      <div class="">
-        <div class="d-flex flex-column justify-content-center align-items-center">
-          <h3 class="text-light-slate electrolize-font text-xl mb-5">
-            <span class="text-turquoise nova-mono-font text-lg">03.</span>
-            Skills and My Tools
-          </h3>
-          <div class="d-flex gap-5 flex-sm-column flex-md-row flex-lg-row">
-            <div class="tech-skill d-flex flex-column gap-5">
-              <article class="d-flex flex-column align-items-center">
-                <h3 class="text-light-slate electrolize-font text-md mb-5 target-animation">
-                  <span class="text-turquoise nova-mono-font text-sm arrow-left d-inline-block">▸</span>
-                  Frontend
-                  <span class="text-turquoise nova-mono-font text-sm arrow-right d-inline-block">◂</span>
-                </h3>
-                <div class="d-flex align-items-center gap-4">
-                  <div class="tech-logo-container">
-                    <img class="tech-logo gray-filter" src="./assets/images/vue_logo.png" alt="" />
-                  </div>
-                  <div class="tech-logo-container">
-                    <img class="tech-logo gray-filter" src="./assets/svg/react-logo.svg" alt="" />
-                  </div>
-                </div>
-              </article>
-              <article class="d-flex flex-column align-items-center">
-                <h3 class="text-light-slate electrolize-font text-md mb-5 target-animation">
-                  <span class="text-turquoise nova-mono-font arrow-left text-sm d-inline-block">▸</span>
-                  Backend
-                  <span class="text-turquoise nova-mono-font arrow-right text-sm d-inline-block">◂</span>
-                </h3>
-                <div class="d-flex align-items-center gap-4">
-                  <div class="tech-logo-container">
-                    <img class="tech-logo gray-filter" src="./assets/images/dotnet-core-logo.png" alt="" />
-                  </div>
-                  <div class="tech-logo-container">
-                    <img class="tech-logo gray-filter" src="./assets/images/springboot-logo.png" alt="" />
-                  </div>
-                </div>
-              </article>
+      <h3 class="text-light-slate electrolize-font text-xl mb-5">
+        <span class="text-turquoise nova-mono-font text-lg">03.</span>
+        Skills and My Tools
+      </h3>
+      <div class="d-flex gap-5 flex-column w-100 align-items-center">
+        <div class="d-flex gap-5 justify-content-center flex-column flex-md-row">
+          <article class="d-flex flex-column align-items-center">
+            <h3 class="text-light-slate electrolize-font text-md mb-5 target-animation">
+              <span class="text-turquoise nova-mono-font text-sm arrow-left d-inline-block">▸</span>
+              Frontend
+              <span class="text-turquoise nova-mono-font text-sm arrow-right d-inline-block">◂</span>
+            </h3>
+            <div class="d-flex align-items-center gap-4">
+              <div class="tech-logo-container">
+                <img class="tech-logo gray-filter" src="./assets/images/vue_logo.png" alt="" />
+              </div>
+              <div class="tech-logo-container">
+                <img class="tech-logo gray-filter" src="./assets/svg/react-logo.svg" alt="" />
+              </div>
             </div>
-            <div class="tech-skill d-flex flex-column gap-5">
-              <article class="d-flex flex-column align-items-center p-4"
-                style="background-color: var(--lighter-dark-cyan-blue); border-radius: 5px;">
-                <h3
-                  class="text-light-slate electrolize-font text-md mb-4 target-animation d-flex flex-column gap-2 align-items-center">
-                  <i class="bi bi-award-fill text-turquoise-800"></i>
-                  <div>
-                    <span class="text-turquoise nova-mono-font text-sm arrow-left d-inline-block">▸</span>
-                    Certificates
-                    <span class="text-turquoise nova-mono-font text-sm arrow-right d-inline-block">◂</span>
-                  </div>
-                </h3>
-
-                <ul class="d-flex flex-column gap-3" style="width: 400px;">
-                  <li class="text-skill text-slate electrolize-font"> React Course - Platzi </li>
-                  <li class="text-skill text-slate electrolize-font"> Vue Course - Platzi </li>
-                  <li class="text-skill text-slate electrolize-font">
-                    Cybersecurity Compliance Framework & System Administration - IBM </li>
-                  <li class="text-skill text-slate electrolize-font">
-                    Cybersecurity Compliance Framework & System Administration - IBM </li>
-                  <li class="text-skill text-slate electrolize-font">
-                    Cybersecurity Compliance Framework & System Administration - IBM </li>
-                  <li class="text-skill text-slate electrolize-font">
-                    Blockchain Basics - University at Buffalo </li>
-                </ul>
-              </article>
+          </article>
+          <article class="d-flex flex-column align-items-center">
+            <h3 class="text-light-slate electrolize-font text-md mb-5 target-animation">
+              <span class="text-turquoise nova-mono-font arrow-left text-sm d-inline-block">▸</span>
+              Backend
+              <span class="text-turquoise nova-mono-font arrow-right text-sm d-inline-block">◂</span>
+            </h3>
+            <div class="d-flex align-items-center gap-4">
+              <div class="tech-logo-container">
+                <img class="tech-logo gray-filter" src="./assets/images/dotnet-core-logo.png" alt="" />
+              </div>
+              <div class="tech-logo-container">
+                <img class="tech-logo gray-filter" src="./assets/images/springboot-logo.png" alt="" />
+              </div>
             </div>
-          </div>
+          </article>
         </div>
+        <article class="certificate-card d-flex flex-column align-items-center">
+          <h3
+            class="text-light-slate electrolize-font text-md mb-4 target-animation d-flex flex-column gap-2 align-items-center">
+            <i class="bi bi-award-fill text-turquoise-800"></i>
+            <div>
+              <span class="text-turquoise nova-mono-font text-sm arrow-left d-inline-block">▸</span>
+              Certificates
+              <span class="text-turquoise nova-mono-font text-sm arrow-right d-inline-block">◂</span>
+            </div>
+          </h3>
+
+          <ul class="d-flex flex-column gap-3 p-0">
+            <li class="text-skill text-slate electrolize-font"> React Course - Platzi </li>
+            <li class="text-skill text-slate electrolize-font"> Vue Course - Platzi </li>
+            <li class="text-skill text-slate electrolize-font">
+              Introduction to Cybersecurity Tools & Cyber Attacks - IBM </li>
+            <li class="text-skill text-slate electrolize-font">
+              Compliance Framework & System Administration - IBM </li>
+            <li class="text-skill text-slate electrolize-font">
+              Roles, Processes & Operating System Security - IBM </li>
+            <li class="text-skill text-slate electrolize-font">
+              Blockchain Basics - University at Buffalo </li>
+          </ul>
+        </article>
       </div>
     </section>
     <section id="my-projects" class="d-flex justify-content-center align-items-center">
