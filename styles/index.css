@@ -423,6 +423,8 @@ img[alt="just-me"] {
 .mask {
   background-color: #64ffdb59;
   transition: all 0.3s ease;
+  width: 500px;
+  height: 500px;
 }
 
 

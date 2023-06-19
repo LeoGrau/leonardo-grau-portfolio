@@ -17,9 +17,9 @@
 
 <body>
   <nav class="navbar navbar-expand-md" style="background-color: var(--dark-cyan-blue);">
-    <div class="container-fluid">
+    <div class="d-flex justify-content-between w-100">
       <a href="#">
-        <h2 class="m-0">LGV</h2>
+        <h2 class="m-0 ms-3">LGV</h2>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,16 +28,16 @@
       <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item py-2 px-md-1 py-md-0">
-            <a class="" aria-current="page" href="#"> Home</a>
+            <a class="ps-2 ps-md-0" aria-current="page" href="#"> Home</a>
           </li>
           <li class="nav-item py-2 px-md-3 py-md-0">
-            <a class="" aria-current="page" href="#about-me">About me</a>
+            <a class="ps-2 ps-md-0" aria-current="page" href="#about-me">About me</a>
           </li>
           <li class="nav-item py-2 px-md-1 py-md-0">
-            <a class="" aria-current="page" href="#skills">Skills</a>
+            <a class="ps-2 ps-md-0" aria-current="page" href="#skills">Skills</a>
           </li>
           <li class="nav-item py-2 px-md-3 py-md-0">
-            <a class="" aria-current="page" href="#my-projects">Projects</a>
+            <a class="ps-2 ps-md-0" aria-current="page" href="#my-projects">Projects</a>
           </li>
       </div>
     </div>
@@ -242,19 +242,18 @@
     </div>
     </section>
   </main>
-  <footer>
-    <div class="social-contacts position-fixed d-flex flex-column align-items-center gap-2"
-      style="left: 20px; bottom: 0">
+  <footer class="d-flex flex-column gap-2">
+    <div class="social-contacts d-flex flex-row flex-md-column justify-content-center align-items-center gap-2" style="left: 20px; bottom: 0">
       <i class="bi bi-instagram"></i>
       <i class="bi bi-linkedin"></i>
       <i class="bi bi-github"></i>
     </div>
-    <div class="email social-contacts position-fixed d-flex flex-column align-items-center gap-2 text-slate"
+    <div class="email social-contacts d-flex flex-md-column justify-content-center align-items-center gap-2 text-slate"
       style="right: 20px; bottom: 0;">
       <span class="ubuntu-mono-font d-inline-block">leonardo.grau@outlook.com.pe</span>
     </div>
-    <div class="w-100 h-100 d-flex justify-content-center align-items-end rajdhani-font">
-      <p class="mb-3 text-slate-500">Made by Leonardo Grau 2023</p>
+    <div class="w-100 h-auto d-flex justify-content-center align-items-end rajdhani-font">
+      <p class="text-slate-500">Made by Leonardo Grau &copy; Copyright 2023</p>
     </div>
   </footer>
 </body>

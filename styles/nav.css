@@ -11,7 +11,17 @@ nav {
   nav .navbar-collapse {
     position: absolute;
     top: 60px;
-  }   
+    width: 100%;
+    background-color: var(--lighter-dark-cyan-blue);
+  }
+  
+  .navbar-collapse.collapsing {
+    box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.582);
+  }
+  
+  .navbar-collapse.collapse.show {
+    box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.582);
+  }
 }
 
 nav h2 {
@@ -71,3 +81,4 @@ ul a[href="#skills"]::before {
 ul a[href="#my-projects"]::before {
   content: "04.";
 }
+
