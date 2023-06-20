@@ -393,11 +393,17 @@ img[alt="just-me"] {
   transition: all 0.2s ease-in;
 }
 
+.tech-button a {
+  color: var(--turquoise);
+  transition: all 0.2s ease-in;
+}
+
 
 .tech-button:hover {
   box-shadow: 4px 4px 0 0 var(--turquoise);
   transform: translate(-5px, -5px);
 }
+
 
 .list-button {
   background-color: transparent;
