@@ -7,7 +7,7 @@ nav {
   z-index: 6;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
   nav .navbar-collapse {
     position: absolute;
     top: 60px;

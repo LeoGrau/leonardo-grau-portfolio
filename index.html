@@ -44,8 +44,8 @@
   </nav>
   <main class="d-flex flex-column w-100">
     <section id="intro" class="d-flex gap-5 justify-content-center align-items-center">
-      <div class="d-flex justify-content-center align-items-center gap-4">
-        <div class="w-100-md w-50-xl">
+      <div class="d-flex justify-content-center align-items-center gap-4 max-w">
+        <div class="sm:w-100 lg:w-50">
           <h3 class="text-turquoise ubuntu-mono-font text-md">
             Hi! My name is
           </h3>
@@ -63,14 +63,14 @@
           </h3>
           <button class="tech-button mt-4"> <a href="https://leograu.github.io/leonardo-grau-portfolio/assets/documents/Resume.pdf" target="_blank">Check out my resume.</a> </button>
         </div>
-        <div class="floating-element" style="width: 30%">
+        <div class="floating-element lg:w-75">
           <img id="laptop-image" src="./assets/svg/laptop.svg" alt="laptop-image" />
         </div>
       </div>
     </section>
     <section id="about-me" class="d-flex flex-column justify-content-center align-items-center gap-4">
       <div class="d-flex flex-column flex-sm-column flex-md-row justify-content-center align-items-center gap-5">
-        <div class="w-50-lg w-75-sm">
+        <div class="description md:w-50 sm:w-75">
           <h1 class="text-light-slate electrolize-font text-xl">
             <span class="text-turquoise nova-mono-font text-lg">01.</span>
             About Me
@@ -89,15 +89,15 @@
             technologies, I'm always up for the challenge. Let's team up and bring our ideas to life!
           </p>
         </div>
-        <div class="bordered-square-container position-relative unmask-container">
-          <img style="width: 297px; height: 340px;" class="position-absolute object-fit-cover"
+        <div class="unmask-container profile-picture-container b-rad-1">
+          <img class="position-absolute object-fit-cover"
             src="./assets/images/LeonardorGrau.jpg" alt="just-me" />
           <div class="mask position-absolute object-fit-cover border-radius"></div>
         </div>
       </div>
       <div
         class="d-flex flex-column flex-sm-column flex-md-row-reverse justify-content-center align-items-center gap-5 ">
-        <div class="w-50-lg w-75-sm">
+        <div class="description md:w-50 sm:w-75">
           <h1 class="text-light-slate electrolize-font text-xl">
             <span class="text-turquoise nova-mono-font text-lg">02.</span>
             Professional Info
@@ -114,7 +114,7 @@
             algorithms and its complexity.
           </p>
         </div>
-        <div style="width: 370px; height: 300px;" class="turquoise-border">
+        <div class="turquoise-border md:w-50 sm\:w-25">
           <section>
             <p class="text-slate text-sm electrolize-font text-turquoise-800"> Programming Languages </p>
             <ul class="d-grid" style="grid-template-columns: repeat(2, 1fr);">
@@ -141,7 +141,7 @@
         <span class="text-turquoise nova-mono-font text-lg">03.</span>
         Skills and My Tools
       </h3>
-      <div class="d-flex gap-5 flex-column w-100 align-items-center">
+      <div class="d-flex gap-5 flex-column align-items-center">
         <div class="d-flex gap-5 justify-content-center flex-column flex-md-row">
           <article class="d-flex flex-column align-items-center">
             <h3 class="text-light-slate electrolize-font text-md mb-5 target-animation">
