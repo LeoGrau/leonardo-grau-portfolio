@@ -42,26 +42,30 @@
       </div>
     </div>
   </nav>
-  <main class="d-flex flex-column w-100">
-    <section id="intro" class="d-flex gap-5 justify-content-center align-items-center">
-      <div class="d-flex justify-content-center align-items-center gap-4 max-w">
+  <main class="d-flex flex-column" style="width: 100%;">
+    <section id="intro" style="width: 100%;" class="d-flex gap-5 justify-content-center align-items-center">
+      <div style="width: 100%;" class="d-flex justify-content-center align-items-center gap-4 max-w">
         <div class="sm:w-100 lg:w-50">
-          <h3 class="text-turquoise ubuntu-mono-font text-md">
+          <h5 class="text-turquoise ubuntu-mono-font text-md sm:text-sm">
             Hi! My name is
-          </h3>
-          <h1 class="text-light-slate sm:text-5xl text-5xl heebo-font fw-bold">
+          </h5>
+          <h1 class="text-light-slate heebo-font fw-bold text-justify text-4xl sm:text-3xl">
             Leonardo Grau
           </h1>
-          <h1 class="text-slate sm:text-4xl text-4xl heebo-font fw-bold">
+          <h1 class="text-slate heebo-font fw-bold sm:text-xl">
             I build certain things for the web.
           </h1>
-          <h3 class="text-light-slate nunito-sans-font text-sm fw-light w-75-lg">
-            I'm a <span class="text-turquoise fw-medium">web craftsman</span> (occassionaly I build mobile apps) and a
+          <p class="text-light-slate nunito-sans-font fw-light sm:text-md text-justify">
+            I'm a <span class="text-turquoise fw-medium text-md">web craftsman</span> (occassionaly I build mobile apps)
+            and a
             4th year Software Engineer student.
-            In addition, I'm interested in <span class="text-turquoise fw-medium">develop technological solutions</span>
+            In addition, I'm interested in <span class="text-turquoise fw-medium text-md text-md">develop technological
+              solutions</span>
             and learn new stuff!
-          </h3>
-          <button class="tech-button mt-4"> <a href="https://leograu.github.io/leonardo-grau-portfolio/assets/documents/Resume.pdf" target="_blank">Check out my resume.</a> </button>
+          </p>
+          <button class="tech-button px-3 py-2"> <a
+              href="https://leograu.github.io/leonardo-grau-portfolio/assets/documents/Resume.pdf" target="_blank">Check
+              out my resume.</a> </button>
         </div>
         <div class="floating-element lg:w-75">
           <img id="laptop-image" src="./assets/svg/laptop.svg" alt="laptop-image" />
@@ -75,7 +79,7 @@
             <span class="text-turquoise nova-mono-font text-lg">01.</span>
             About Me
           </h1>
-          <p class="text-slate">
+          <p class="text-slate text-justify">
             Hey there! I'm a passionate web developer and mobile application enthusiast, currently in my 4th year of
             studies at UPC (Universidad Peruana de Ciencias Aplicadas). When I'm not immersed in coding, you can find
             me hitting the gym to stay fit and energized, or unleashing my creativity on the dance floor.
@@ -90,19 +94,18 @@
           </p>
         </div>
         <div class="unmask-container profile-picture-container b-rad-1">
-          <img class="position-absolute object-fit-cover"
-            src="./assets/images/LeonardorGrau.jpg" alt="just-me" />
+          <img class="position-absolute object-fit-cover" src="./assets/images/LeonardorGrau.jpg" alt="just-me" />
           <div class="mask position-absolute object-fit-cover border-radius"></div>
         </div>
       </div>
       <div
         class="d-flex flex-column flex-sm-column flex-md-row-reverse justify-content-center align-items-center gap-5 ">
-        <div class="description md:w-50 sm:w-75">
+        <div class="description md:w-50 sm:w-50">
           <h1 class="text-light-slate electrolize-font text-xl">
             <span class="text-turquoise nova-mono-font text-lg">02.</span>
             Professional Info
           </h1>
-          <p class="text-slate">
+          <p class="text-slate text-justify">
             In all my student path, I've been developing apps with different
             frameworks and technologies for university projects in each
             semester. I have domain in <span class="text-turquoise fw-medium">Spring Boot</span> and
@@ -114,10 +117,10 @@
             algorithms and its complexity.
           </p>
         </div>
-        <div class="turquoise-border md:w-50 sm\:w-25">
-          <section>
+        <div class="sm:w-50">
+          <section class="turquoise-border p-4">
             <p class="text-slate text-sm electrolize-font text-turquoise-800"> Programming Languages </p>
-            <ul class="d-grid" style="grid-template-columns: repeat(2, 1fr);">
+            <ul class="d-grid p-0 column-gap-4" style="grid-template-columns: repeat(2, 1fr);">
               <li class="text-skill text-slate electrolize-font"> Javascript </li>
               <li class="text-skill text-slate electrolize-font"> Typescript </li>
               <li class="text-skill text-slate electrolize-font"> C# </li>
@@ -126,7 +129,7 @@
               <li class="text-skill text-slate electrolize-font"> Python </li>
             </ul>
             <p class="text-slate text-sm electrolize-font text-turquoise-800"> Frameworks </p>
-            <ul class="d-grid" style="grid-template-columns: repeat(2, 1fr);">
+            <ul class="d-grid p-0 column-gap-4" style="grid-template-columns: repeat(2, 1fr);">
               <li class="text-skill text-slate electrolize-font"> Spring Boot </li>
               <li class="text-skill text-slate electrolize-font"> .NET </li>
               <li class="text-skill text-slate electrolize-font"> Vue </li>
@@ -138,10 +141,10 @@
     </section>
     <section id="skills" class="d-flex flex-column justify-content-center align-items-center">
       <h3 class="text-light-slate electrolize-font text-xl mb-5">
-        <span class="text-turquoise nova-mono-font text-lg">03.</span>
+        <span class="text-turquoise nova-mono-font">03.</span>
         Skills and My Tools
       </h3>
-      <div class="d-flex gap-5 flex-column align-items-center">
+      <div class="d-flex gap-5 flex-column align-items-center w-100">
         <div class="d-flex gap-5 justify-content-center flex-column flex-md-row">
           <article class="d-flex flex-column align-items-center">
             <h3 class="text-light-slate electrolize-font text-md mb-5 target-animation">
@@ -149,7 +152,7 @@
               Frontend
               <span class="text-turquoise nova-mono-font text-sm arrow-right d-inline-block">◂</span>
             </h3>
-            <div class="d-flex align-items-center gap-4">
+            <div class="d-flex justify-content-center align-items-center gap-4">
               <div class="tech-logo-container">
                 <img class="tech-logo gray-filter" src="./assets/images/vue_logo.png" alt="" />
               </div>
@@ -164,7 +167,7 @@
               Backend
               <span class="text-turquoise nova-mono-font arrow-right text-sm d-inline-block">◂</span>
             </h3>
-            <div class="d-flex align-items-center gap-4">
+            <div class="d-flex justify-content-center align-items-center gap-4">
               <div class="tech-logo-container">
                 <img class="tech-logo gray-filter" src="./assets/images/dotnet-core-logo.png" alt="" />
               </div>
@@ -217,7 +220,7 @@
               <div class="info">
                 <h5 class="jetbrains-mono-font text-turquoise" style="font-size: 14px;">Basic Project</h5>
                 <h2 class="roboto-font fw-bolder"> Receipt App </h2>
-                <p class="roboto-font">
+                <p class="roboto-font text-justify">
                   A minimalistic and fun application built with <span class="text-turquoise">React</span> and
                   <span class="text-turquoise"> PrimeReact </span>, using <span
                     class="text-turquoise">JavaScript</span>. Integrated
@@ -225,15 +228,17 @@
                     class="text-turquoise">.NET API</span>, perfect for showcasing in job interviews.
                 </p>
                 <ul class="d-flex gap-2 p-0 py-2">
-                  <li class="roboto-mono-font text-white-slate text-xs"> React </li>
-                  <li class="roboto-mono-font text-white-slate text-xs"> VSCode </li>
-                  <li class="roboto-mono-font text-white-slate text-xs"> .NET </li>
-                  <li class="roboto-mono-font text-white-slate text-xs"> PrimeReact </li>
-                  <li class="roboto-mono-font text-white-slate text-xs"> Axios </li>
+                  <li class="roboto-mono-font text-white-slate text-sm"> React </li>
+                  <li class="roboto-mono-font text-white-slate text-sm"> VSCode </li>
+                  <li class="roboto-mono-font text-white-slate text-sm"> .NET </li>
+                  <li class="roboto-mono-font text-white-slate text-sm"> PrimeReact </li>
+                  <li class="roboto-mono-font text-white-slate text-sm"> Axios </li>
                 </ul>
                 <div class="d-flex gap-2">
-                  <a href="https://github.com/LeoGrau/ReceiptApp" target="_blank" class="bi bi-github text-slate text-xl"></a>
-                  <a href="https://github.com/LeoGrau/ReceiptApp" target="_blank" class="bi bi-link-45deg text-slate text-xl"></a>
+                  <a href="https://github.com/LeoGrau/ReceiptApp" target="_blank"
+                    class="bi bi-github text-slate text-xl"></a>
+                  <a href="https://github.com/LeoGrau/ReceiptApp" target="_blank"
+                    class="bi bi-link-45deg text-slate text-xl"></a>
                 </div>
               </div>
             </div>
@@ -243,14 +248,15 @@
     </section>
   </main>
   <footer class="d-flex flex-column gap-2">
-    <div class="social-contacts d-flex flex-row flex-md-column justify-content-center align-items-center gap-2" style="left: 20px; bottom: 0">
+    <div class="social-contacts d-flex flex-row flex-md-column justify-content-center align-items-center gap-2"
+      style="left: 20px; bottom: 0">
       <i class="bi bi-instagram"></i>
       <i class="bi bi-linkedin"></i>
       <i class="bi bi-github"></i>
     </div>
     <div class="email social-contacts d-flex flex-md-column justify-content-center align-items-center gap-2 text-slate"
       style="right: 20px; bottom: 0;">
-      <span class="ubuntu-mono-font d-inline-block">leonardo.grau@outlook.com.pe</span>
+      <span class="ubuntu-mono-font d-inline-block">leonardo.grau@outlook.com. pe</span>
     </div>
     <div class="w-100 h-auto d-flex justify-content-center align-items-end rajdhani-font">
       <p class="text-slate-500">Made by Leonardo Grau &copy; Copyright 2023</p>

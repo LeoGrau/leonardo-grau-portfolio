@@ -5,26 +5,6 @@ main #intro {
 }
 
 
-@media (min-width: 769px) and (max-width: 1200px) {
-  main #intro .floating-element {
-    display: none;
-  }
-  
-  main #intro > div:nth-child(1) {
-    width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  main #intro .floating-element {
-    display: none;
-  }
-  
-  main #intro > div:nth-child(1) {
-    width: 100%;
-  }
-}
-
 
 /* About me */
 main #about-me {
@@ -32,16 +12,6 @@ main #about-me {
   padding-bottom: 70px;
   background-color: var(--dark-cyan-blue);
   /* height: 100vh; */
-}
-
-main #about-me .w-75-md,
-main #about-me .w-50-lg
-{
-  max-width: 510px;
-}
-
-main #about-me .turquoise-border {
-  max-width: 297px;
 }
 
 
@@ -60,7 +30,33 @@ main #my-projects {
 
 .turquoise-border {
   border: #64ffdba8 1px solid;
-  padding: 20px;
+  /* padding: 1.25rem; */
   border-radius: 5px;
 }
 
+
+
+@media (min-width: 768px) {
+  main #intro .floating-element {
+    display: none;
+  }
+  
+  main #intro > div:nth-child(1) {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #intro {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  main #intro .floating-element {
+    display: none;
+  }
+  
+  main #intro > div:nth-child(1) {
+    width: 100%;
+  }
+}

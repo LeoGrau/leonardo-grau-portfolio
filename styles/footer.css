@@ -52,6 +52,7 @@ footer .email::after {
 
 
   footer .email {
+    width: 100%;
     position: inherit;
   }
 

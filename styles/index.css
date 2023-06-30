@@ -37,6 +37,20 @@
   color: var(--slate);
 }
 
+
+body {
+  width: fit-content;
+  min-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: initial;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 li {
   list-style: none;
 }
@@ -145,27 +159,6 @@ a.text-slate:hover {
   }
 }
 
-/* Media queries */
-@media (min-width: 768px) and (max-width: 992px) {
-  .text-2xl {
-    font-size: 1.5rem;
-  }
-  .text-3xl {
-    font-size: 2rem;
-  }
-  .text-4xl {
-    font-size: 2.75em;
-  }
-  .text-5xl {
-    font-size: 3.25rem;
-  }
-  .text-6xl {
-    font-size: 3.75rem;
-  }
-  .text-7xl {
-    font-size: 4rem;
-  }
-}
 
 
 img#laptop-image {
@@ -186,9 +179,9 @@ img[alt="just-me"] {
   filter: grayscale(0%);
 }
 
+
 .tech-logo {
   width: 100px;
-  cursor: pointer;
 }
 
 .text-skill::before {
@@ -207,7 +200,8 @@ img[alt="just-me"] {
 
 /* Button */
 .tech-button {
-  padding: 10px 30px;
+  width: 100%;
+  max-width: 184px;
   border-radius: 8px;
   background-color: var(--dark-cyan-blue);
   color: var(--turquoise);
@@ -218,6 +212,7 @@ img[alt="just-me"] {
 .tech-button a {
   color: var(--turquoise);
   transition: all 0.2s ease-in;
+  font-size: 80%;
 }
 
 .tech-button:hover {
@@ -275,7 +270,7 @@ img[alt="just-me"] {
 }
 
 main > section {
-  padding: 0 30px;
+  padding: 25px;
 }
 
 
@@ -286,7 +281,7 @@ main > section {
 
 .description {
   max-width: 548px !important;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .max-w {
@@ -301,6 +296,7 @@ main > section {
   width: 90%;
   aspect-ratio: 1;
   overflow: hidden;
+  max-width: 350px;
 }
 .profile-picture-container img {
   width: 100%;
@@ -333,6 +329,7 @@ main > section {
     height: 340px;
     overflow: hidden;
   }
+
 }
 
 
